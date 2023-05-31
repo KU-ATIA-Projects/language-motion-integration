@@ -1,1 +1,3 @@
-# language-motion-integration
+# Human Motion Analysis: Exploring Language-Motion Integration for Motion Editing
+We are in the process of putting code/animations created for this project together. 
+The current changes can be found in [MDM](https://github.com/KU-ATIA-Projects/motion-diffusion-model) and [MLD](https://github.com/KU-ATIA-Projects/motion-latent-diffusion).
