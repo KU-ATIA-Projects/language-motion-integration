@@ -6,11 +6,11 @@ The current changes can be found in [MDM](https://github.com/KU-ATIA-Projects/mo
 ## 5.1 Pre-experiments: text-to-motion generation result comparison
 
 <!-- Figure 14: Generated motions of "The person jumps 3 times and sits down". They show insensitivity to numerical values. -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/mdm_0.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -18,8 +18,8 @@ The current changes can be found in [MDM](https://github.com/KU-ATIA-Projects/mo
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/mld_0.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -27,8 +27,8 @@ The current changes can be found in [MDM](https://github.com/KU-ATIA-Projects/mo
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/t2m_gpt_0.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -40,11 +40,11 @@ The current changes can be found in [MDM](https://github.com/KU-ATIA-Projects/mo
 </figure>
 
 <!-- Figure 15: Generated motions of ”The man jumped twice, then fell to the ground.” In sequences of action instructions, they often execute only the preceding one. For these three, T2M-GPT successfully executes all the commands while the other two ignore the falling to the ground”. -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/mdm_1.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -52,8 +52,8 @@ The current changes can be found in [MDM](https://github.com/KU-ATIA-Projects/mo
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/mld_1.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -61,8 +61,8 @@ The current changes can be found in [MDM](https://github.com/KU-ATIA-Projects/mo
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/t2m_gpt_1.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -76,11 +76,11 @@ The current changes can be found in [MDM](https://github.com/KU-ATIA-Projects/mo
 <!-- Figure 16: Generated motions of ”The person is walking in a curve to the left and then back around
 to the right in a curve.” They may lack sensitivity to direction. MLD seems a little confused in
 the beginning. Other than that, all three give satisfactory results. -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/mdm_2.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -88,8 +88,8 @@ the beginning. Other than that, all three give satisfactory results. -->
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/mld_2.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -97,8 +97,8 @@ the beginning. Other than that, all three give satisfactory results. -->
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/t2m_gpt_2.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -111,11 +111,11 @@ the beginning. Other than that, all three give satisfactory results. -->
 
 <!-- Figure 17: Generation motions of ”A person is bouldering.” They may fail to accurately process
 texts that are not encompassed within the training set. -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/mdm_3.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -123,8 +123,8 @@ texts that are not encompassed within the training set. -->
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/mld_3.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -132,8 +132,8 @@ texts that are not encompassed within the training set. -->
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_1_pre_experiments/t2m_gpt_3.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -175,16 +175,16 @@ texts that are not encompassed within the training set. -->
 Schematic Diagram of Latent Space Interpolation: The diagram illustrates two scenarios of interpolation in the latent space - (a) between 'Throw' and 'Throw', and (b) between 'Throw' and 'Walk'.
     For both (a) and (b), the points in the rectangular box represent the initial motion, with three evenly interpolated points in between. 
     Additionally, points are plotted along the extension line of the two original actions, at a quarter, a half, one, and ten times the length between the original points.
-<figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+<figure>
+        <video controls loop autoplay muted width=100%>
           <source src="./animations/5_2_latent_space_exploration/MLD/result_basic.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
         <figcaption>Figure 20: Generation of Motion from Latent Space: The figure showcases the generation of three distinct motions – 'Walk', 'Throw', and 'Boxing' – derived from their corresponding clusters in the latent space</figcaption>
       </figure>
 
-<figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+<figure>
+        <video controls loop autoplay muted width=100%>
           <source src="./animations/5_2_latent_space_exploration/MLD/result_basic_render.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -192,8 +192,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
 
 
-<figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=80vw>
+<figure>
+        <video controls loop autoplay muted width=100%>
           <source src="./animations/5_2_latent_space_exploration/MLD/result_throw_throw_int.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -201,8 +201,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
         Visual Representation of Interpolated and Extrapolated Values: the figure showcases a series of continuous interpolation and extrapolation positions depicted from left to right. Figures (a) and (g) showcase extrapolated actions progressing slower than the originals on their side. Figures (c), (d), and (e) demonstrate a transition that falls between the original actions. All interpolated and extrapolated figures trend towards closely resembling one side of the original actions.</figcaption>
       </figure>
 
-<figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=80vw>
+<figure>
+        <video controls loop autoplay muted width=100%>
           <source src="./animations/5_2_latent_space_exploration/MLD/result_throw_throw_ext.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -211,8 +211,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
 
 
-<figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=80vw>
+<figure>
+        <video controls loop autoplay muted width=100%>
           <source src="./animations/5_2_latent_space_exploration/MLD/result_throw_walk_int.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -220,8 +220,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
         Visual Representation of Interpolated and Extrapolated Values: the figure showcases a series of continuous interpolation and extrapolation positions depicted from left to right. Figures (a) and (g) showcase extrapolated actions progressing slower than the originals on their side. Figures (c), (d), and (e) demonstrate a transition that falls between the original actions. All interpolated and extrapolated figures trend towards closely resembling one side of the original actions.</figcaption>
       </figure>
 
-<figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=80vw>
+<figure>
+        <video controls loop autoplay muted width=100%>
           <source src="./animations/5_2_latent_space_exploration/MLD/result_throw_walk_ext.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -230,8 +230,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
 
 ### 5.2.2 Latent space exploration on MDM
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=80vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_2_latent_space_exploration/MDM/res_interpolation.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -241,11 +241,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 
 ## 5.3 Prompt-based motion editing
 <!-- 1a -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample00.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -253,8 +253,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample01.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -262,8 +262,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample02.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -275,11 +275,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 </figure>
 
 <!-- 1b -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample04.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -287,8 +287,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample05.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -296,8 +296,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample06.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -310,11 +310,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 </figure>
 
 <!-- 2a -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample08.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -322,8 +322,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample09.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -331,8 +331,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample10.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -344,11 +344,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 </figure>
 
 <!-- 2b -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample12.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -356,8 +356,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample13.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -365,8 +365,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample14.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -378,11 +378,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 </figure>
 
 <!-- 3a -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample16.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -390,8 +390,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample17.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -399,8 +399,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample18.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -413,11 +413,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 
 
 <!-- 3b -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample20.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -425,8 +425,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample21.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -434,8 +434,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample22.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -447,11 +447,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 </figure>
 
 <!-- 4a -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample24.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -459,8 +459,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample25.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -468,8 +468,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample26.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -482,11 +482,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 </figure>
 
 <!-- 4b -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample28.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -494,8 +494,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample29.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -503,8 +503,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample30.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -516,11 +516,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 </figure>
 
 <!-- 5a -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample32.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -528,8 +528,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample33.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -537,8 +537,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample34.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -550,11 +550,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 </figure>
 
 <!-- 5b -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample36.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -562,8 +562,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample37.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -571,8 +571,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample38.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -585,11 +585,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 </figure>
 
 <!-- 6a -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample40.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -597,8 +597,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample41.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -606,8 +606,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample42.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -620,11 +620,11 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 </figure>
 
 <!-- 6b -->
-<figure style="max-width: 100%;">
+<figure>
   <div style="display: flex;">
     <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample44.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -632,8 +632,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample45.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -641,8 +641,8 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
       </figure>
     </div>
         <div style="flex: 1;">
-      <figure style="max-width: 100%;">
-        <video controls loop autoplay muted height=200vw>
+      <figure>
+        <video controls loop autoplay muted width=100%>
           <source src="animations/5_3_prompt_based_motion_editing/sample46.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -659,111 +659,99 @@ Schematic Diagram of Latent Space Interpolation: The diagram illustrates two sce
 
 ### Data filtering approach
 
-## 5.4 Ablations
-* This section presents more and broader results relative to the results presented in the same position in the thesis.
-* Arranged from top to bottom, the first row depicts the original motion, while the second and third rows display the edited motions with and without the utilization of Prompt-to-Prompt, respectively. In the fourth row, the edited prompt's self-attention is incorporated into the unconditionally generated outcomes. Progressing from left to right, the Prompt-to-Prompt thresholds are consecutively set at 0.01, 0.02, extending up to 0.10.
-
-### Data filtering approach
-
-
-## 5.4 Ablations
-* This section presents more and broader results relative to the results presented in the same position in the thesis.
-* Arranged from top to bottom, the first row depicts the original motion, while the second and third rows display the edited motions with and without the utilization of Prompt-to-Prompt, respectively. In the fourth row, the edited prompt's self-attention is incorporated into the unconditionally generated outcomes. Progressing from left to right, the Prompt-to-Prompt thresholds are consecutively set at 0.01, 0.02, extending up to 0.10.
-
-### Data filtering approach
-
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair00_03_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "1. Speed and Duration Edits: a. Modifying speed or pacing." </figcaption>
 </figure>
 
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair04_07_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "1. Speed and Duration Edits: b. Changing the duration of the motion." </figcaption>
 </figure>
 
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair08_11_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "2. Direction and Orientation Edits: a. Changing direction." </figcaption>
 </figure>
 
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair12_15_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "2. Direction and Orientation Edits: b. Adjusting orientation." </figcaption>
 </figure>
 
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair16_19_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "3. Body Part and Joint Edits: a. Changing body parts involved." </figcaption>
 </figure>
 
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair20_23_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "3. Body Part and Joint Edits: b. Adjusting joint angles." </figcaption>
 </figure>
 
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair24_27_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "4. Action and Pose Edits: a. Introducing new actions or poses." </figcaption>
 </figure>
 
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair28_31_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "4. Action and Pose Edits: b. Removing or replacing actions." </figcaption>
 </figure>
 
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair32_35_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "5. Interaction Edits:	a. Interacting with objects." </figcaption>
 </figure>
 
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair36_39_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "5. Interaction Edits: b. Interacting with other characters." </figcaption>
 </figure>
 
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair40_43_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "6. Emotional and Style Edits: a. Altering the emotional context or intention." </figcaption>
 </figure>
 
-<figure style="max-width: 100%;">
-  <video controls loop autoplay muted height=300vw>
+<figure>
+  <video controls loop autoplay muted width=100%>
     <source src="animations/5_4_ablations/pair44_47_rep00_grid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Prompt-to-Prompt effects for "6. Emotional and Style Edits: b. Changing the motion style or manner." </figcaption>
 </figure>
+
